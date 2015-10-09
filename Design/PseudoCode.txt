@@ -1,0 +1,32 @@
+Program Start 
+(Main Function)
+	Instantiate window constructs
+	display window
+	Create handle for connection (skyetek_DiscoverDevices)
+	create reader thread to listen for incomming messages (createReaderThread)
+	initiate message listener
+	
+(Message Listener)
+	Wait for user command
+		if user tries to disconnnect
+			check if connection is currently established
+			disconnect from comm handle
+		if user tries to establish another connection to the comm handle
+			check to make sure connection isnt already built
+			establish new connection
+		if user sends data to reader [GENERIC - FILL IN]
+			check to make sure connection is currently established
+			send data (call) to RFID reader
+		if user attempts to set new comm settings
+			check to make sure connection is not established
+			apply settings to comm port
+			
+
+(CreateReaderThread)
+	LOOP {
+		wait for data to be sent from the open port
+		if data is found to be recieved
+			send data to display (process for UI)
+			set the data to the screen
+	}
+	
