@@ -1,0 +1,8 @@
+C:\SkyeReader\API2\SimpleExample\bin\Debug\SimpleExample.exe
+C:\SkyeReader\API2\SimpleExample\bin\Debug\SimpleExample.pdb
+C:\SkyeReader\API2\SimpleExample\bin\Debug\stapiclr.dll
+C:\SkyeReader\API2\SimpleExample\bin\Debug\stapiclr.pdb
+C:\SkyeReader\API2\SimpleExample\bin\Debug\stapiclr.xml
+C:\SkyeReader\API2\SimpleExample\obj\Debug\ResolveAssemblyReference.cache
+C:\SkyeReader\API2\SimpleExample\obj\Debug\SimpleExample.exe
+C:\SkyeReader\API2\SimpleExample\obj\Debug\SimpleExample.pdb

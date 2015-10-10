@@ -1,0 +1,6 @@
+C:\SkyeReader\API2\MultithreadedUSB\bin\Release\MultithreadedUSB.exe
+C:\SkyeReader\API2\MultithreadedUSB\bin\Release\MultithreadedUSB.pdb
+C:\SkyeReader\API2\MultithreadedUSB\bin\Release\stapiclr.dll
+C:\SkyeReader\API2\MultithreadedUSB\obj\Release\ResolveAssemblyReference.cache
+C:\SkyeReader\API2\MultithreadedUSB\obj\Release\MultithreadedUSB.exe
+C:\SkyeReader\API2\MultithreadedUSB\obj\Release\MultithreadedUSB.pdb

@@ -1,0 +1,6 @@
+C:\SkyeReader\API2\InventoryExample\bin\Debug\InventoryExample.exe
+C:\SkyeReader\API2\InventoryExample\bin\Debug\InventoryExample.pdb
+C:\SkyeReader\API2\InventoryExample\bin\Debug\stapiclr.dll
+C:\SkyeReader\API2\InventoryExample\obj\Debug\ResolveAssemblyReference.cache
+C:\SkyeReader\API2\InventoryExample\obj\Debug\InventoryExample.exe
+C:\SkyeReader\API2\InventoryExample\obj\Debug\InventoryExample.pdb

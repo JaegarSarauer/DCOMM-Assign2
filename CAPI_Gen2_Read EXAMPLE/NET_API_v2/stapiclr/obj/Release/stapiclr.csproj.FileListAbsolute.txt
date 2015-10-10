@@ -1,0 +1,7 @@
+C:\SkyeReader\API2\stapiclr\obj\Release\ResolveAssemblyReference.cache
+C:\SkyeReader\API2\stapiclr\bin\Release\stapiclr.dll.config
+C:\SkyeReader\API2\stapiclr\bin\Release\stapiclr.XML
+C:\SkyeReader\API2\stapiclr\bin\Release\stapiclr.dll
+C:\SkyeReader\API2\stapiclr\bin\Release\stapiclr.pdb
+C:\SkyeReader\API2\stapiclr\obj\Release\stapiclr.dll
+C:\SkyeReader\API2\stapiclr\obj\Release\stapiclr.pdb

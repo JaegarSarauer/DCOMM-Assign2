@@ -1,0 +1,52 @@
+10
+
+dir
+152
+svn://10.1.10.201/SkyeReader/branches/Lach_working/SkyeReader/trunk/api
+svn://10.1.10.201/SkyeReader
+
+
+
+2010-02-26T12:16:39.245749Z
+148
+Ltemelkov
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20fffc82-1b61-0410-adcf-96ab00629b6f
+
+SkyeCmdCLR
+dir
+
+stapiclr
+dir
+
+Gen2Lock
+dir
+
+MultithreadedUSB
+dir
+
+SimpleExample
+dir
+
+SkyeCmdCF
+dir
+
+InventoryExample
+dir
+
+SR100SimpleExample
+dir
+

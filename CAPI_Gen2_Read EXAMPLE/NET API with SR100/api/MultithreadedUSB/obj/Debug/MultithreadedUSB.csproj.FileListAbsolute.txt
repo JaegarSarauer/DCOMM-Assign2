@@ -1,0 +1,36 @@
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.exe
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.pdb
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.exe
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.pdb
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.exe
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.pdb
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\stapiclr.dll
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.exe
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.pdb
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.exe
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.pdb
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.exe
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.pdb
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.exe
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.pdb
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\stapiclr.dll
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.exe
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.pdb
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.exe
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.pdb
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\stapiclr.dll
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.exe
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.pdb
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.exe
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\MultithreadedUSB.pdb
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\MultithreadedUSB\bin\Debug\stapiclr.dll
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.exe
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\MultithreadedUSB\obj\Debug\MultithreadedUSB.pdb

@@ -1,0 +1,11 @@
+C:\SkyeReader\API2\SkyeCmdCLR\bin\Debug\SkyeCmd.exe
+C:\SkyeReader\API2\SkyeCmdCLR\bin\Debug\SkyeCmd.pdb
+C:\SkyeReader\API2\SkyeCmdCLR\bin\Debug\stapiclr.dll
+C:\SkyeReader\API2\SkyeCmdCLR\bin\Debug\stapiclr.pdb
+C:\SkyeReader\API2\SkyeCmdCLR\bin\Debug\stapiclr.xml
+C:\SkyeReader\API2\SkyeCmdCLR\obj\Debug\ResolveAssemblyReference.cache
+C:\SkyeReader\API2\SkyeCmdCLR\obj\Debug\SkyeTek.SkyeCmd.MainForm.resources
+C:\SkyeReader\API2\SkyeCmdCLR\obj\Debug\SkyeTek.SkyeCmd.Properties.Resources.resources
+C:\SkyeReader\API2\SkyeCmdCLR\obj\Debug\SkyeCmdCLR.csproj.GenerateResource.Cache
+C:\SkyeReader\API2\SkyeCmdCLR\obj\Debug\SkyeCmd.exe
+C:\SkyeReader\API2\SkyeCmdCLR\obj\Debug\SkyeCmd.pdb

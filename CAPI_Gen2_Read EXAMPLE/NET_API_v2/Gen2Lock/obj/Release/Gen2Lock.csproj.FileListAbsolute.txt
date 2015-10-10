@@ -1,0 +1,6 @@
+C:\SkyeReader\API2\Gen2Lock\bin\Release\Gen2Lock.exe
+C:\SkyeReader\API2\Gen2Lock\bin\Release\Gen2Lock.pdb
+C:\SkyeReader\API2\Gen2Lock\bin\Release\stapiclr.dll
+C:\SkyeReader\API2\Gen2Lock\obj\Release\ResolveAssemblyReference.cache
+C:\SkyeReader\API2\Gen2Lock\obj\Release\Gen2Lock.exe
+C:\SkyeReader\API2\Gen2Lock\obj\Release\Gen2Lock.pdb

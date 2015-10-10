@@ -1,0 +1,8 @@
+C:\SkyeTek\SkyeReader 2\branches\Lach_working\SkyeReader\trunk\api\SR100SimpleExample\bin\Release\SR100SimpleExample.exe
+C:\SkyeTek\SkyeReader 2\branches\Lach_working\SkyeReader\trunk\api\SR100SimpleExample\bin\Release\SR100SimpleExample.pdb
+C:\SkyeTek\SkyeReader 2\branches\Lach_working\SkyeReader\trunk\api\SR100SimpleExample\bin\Release\stapiclr.dll
+C:\SkyeTek\SkyeReader 2\branches\Lach_working\SkyeReader\trunk\api\SR100SimpleExample\bin\Release\stapiclr.pdb
+C:\SkyeTek\SkyeReader 2\branches\Lach_working\SkyeReader\trunk\api\SR100SimpleExample\bin\Release\stapiclr.xml
+C:\SkyeTek\SkyeReader 2\branches\Lach_working\SkyeReader\trunk\api\SR100SimpleExample\obj\Release\ResolveAssemblyReference.cache
+C:\SkyeTek\SkyeReader 2\branches\Lach_working\SkyeReader\trunk\api\SR100SimpleExample\obj\Release\SR100SimpleExample.exe
+C:\SkyeTek\SkyeReader 2\branches\Lach_working\SkyeReader\trunk\api\SR100SimpleExample\obj\Release\SR100SimpleExample.pdb

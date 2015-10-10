@@ -1,0 +1,11 @@
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\SkyeCmdCLR\bin\Release\SkyeCmd.exe
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\SkyeCmdCLR\bin\Release\SkyeCmd.pdb
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\SkyeCmdCLR\bin\Release\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\SkyeCmdCLR\bin\Release\stapiclr.pdb
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\SkyeCmdCLR\bin\Release\stapiclr.xml
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\SkyeCmdCLR\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\SkyeCmdCLR\obj\Release\SkyeTek.SkyeCmd.MainForm.resources
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\SkyeCmdCLR\obj\Release\SkyeTek.SkyeCmd.Properties.Resources.resources
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\SkyeCmdCLR\obj\Release\SkyeCmdCLR.csproj.GenerateResource.Cache
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\SkyeCmdCLR\obj\Release\SkyeCmd.exe
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\SkyeCmdCLR\obj\Release\SkyeCmd.pdb

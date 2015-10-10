@@ -1,0 +1,12 @@
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\bin\Release\MultithreadedUSB.exe
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\bin\Release\MultithreadedUSB.pdb
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\bin\Release\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\obj\Release\MultithreadedUSB.exe
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\MultithreadedUSB\obj\Release\MultithreadedUSB.pdb
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Release\MultithreadedUSB.exe
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Release\MultithreadedUSB.pdb
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\bin\Release\stapiclr.dll
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Release\MultithreadedUSB.exe
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\MultithreadedUSB\obj\Release\MultithreadedUSB.pdb

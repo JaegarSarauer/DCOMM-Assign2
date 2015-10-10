@@ -1,0 +1,36 @@
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.exe
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.pdb
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\InventoryExample\bin\Debug\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\InventoryExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.exe
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.pdb
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.exe
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.pdb
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\stapiclr.dll
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.exe
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.pdb
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.exe
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.pdb
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.exe
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.pdb
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.exe
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.pdb
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\stapiclr.dll
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.exe
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.pdb
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.exe
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.pdb
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\bin\Debug\stapiclr.dll
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.exe
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.pdb
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.exe
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\InventoryExample\bin\Debug\InventoryExample.pdb
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\InventoryExample\bin\Debug\stapiclr.dll
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\InventoryExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.exe
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\InventoryExample\obj\Debug\InventoryExample.pdb

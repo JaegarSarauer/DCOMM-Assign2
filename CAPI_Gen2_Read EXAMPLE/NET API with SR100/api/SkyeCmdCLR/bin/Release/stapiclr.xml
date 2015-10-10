@@ -1,0 +1,1124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>stapiclr</name>
+    </assembly>
+    <members>
+        <member name="M:SkyeTek.SkyePlusMultiplexer.DetectMultiplexer(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.SkyePlusMultiplexer.EnableMultiplexer(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.SkyePlusMultiplexer.DisableMultiplexer(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.SkyePlusMultiplexer.SetMultiplexerPort(SkyeTek.Readers.STPv3Reader,System.Byte)">
+            <summary>
+            
+            </summary>
+            <param name="reader"></param>
+            <param name="portVal"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.SkyePlusMultiplexer.IncrementMultiplexerPort(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            This function checks the current port and switches to the next port. If the max port is reached,
+            then 
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.SkyePlusMultiplexer.MuxPortList(MUXType)">
+            <summary>
+            
+            </summary>
+            <param name="muxType"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SkyeTek.SkyePlusMultiplexer.MultiplexerMaxPort">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:GenericHid.Debugging.ResultOfAPICall(System.String)">
+             <summary>
+             Get text that describes the result of an API call.
+             </summary>
+             
+             <param name="FunctionName"> the name of the API function. </param>
+             
+             <returns>
+             The text.
+             </returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:GenericHid.DeviceManagement.DBT_DEVICEARRIVAL" -->
+        <member name="M:GenericHid.DeviceManagement.DeviceNameMatch(System.Windows.Forms.Message,System.String)">
+             <summary>
+             Compares two device path names. Used to find out if the device name 
+             of a recently attached or removed device matches the name of a 
+             device the application is communicating with.
+             </summary>
+             
+             <param name="m"> a WM_DEVICECHANGE message. A call to RegisterDeviceNotification
+             causes WM_DEVICECHANGE messages to be passed to an OnDeviceChange routine.. </param>
+             <param name="mydevicePathName"> a device pathname returned by 
+             SetupDiGetDeviceInterfaceDetail in an SP_DEVICE_INTERFACE_DETAIL_DATA structure. </param>
+             
+             <returns>
+             True if the names match, False if not.
+             </returns>
+             
+        </member>
+        <member name="M:GenericHid.DeviceManagement.FindDeviceFromGuid(System.Guid,System.String[]@)">
+             <summary>
+             Use SetupDi API functions to retrieve the device path name of an
+             attached device that belongs to a device interface class.
+             </summary>
+             
+             <param name="myGuid"> an interface class GUID. </param>
+             <param name="devicePathName"> a pointer to the device path name 
+             of an attached device. </param>
+             
+             <returns>
+              True if a device is found, False if not. 
+             </returns>
+        </member>
+        <member name="M:GenericHid.DeviceManagement.RegisterForDeviceNotifications(System.String,System.IntPtr,System.Guid,System.IntPtr@)">
+             <summary>
+             Requests to receive a notification when a device is attached or removed.
+             </summary>
+             
+             <param name="devicePathName"> handle to a device. </param>
+             <param name="formHandle"> handle to the window that will receive device events. </param>
+             <param name="classGuid"> device interface GUID. </param>
+             <param name="deviceNotificationHandle"> returned device notification handle. </param>
+             
+             <returns>
+             True on success.
+             </returns>
+             
+        </member>
+        <member name="M:GenericHid.DeviceManagement.StopReceivingDeviceNotifications(System.IntPtr)">
+             <summary>
+             Requests to stop receiving notification messages when a device in an
+             interface class is attached or removed.
+             </summary>
+             
+             <param name="deviceNotificationHandle"> handle returned previously by
+             RegisterDeviceNotification. </param>
+        </member>
+        <member name="T:SkyeTek.NXPTag">
+            <summary>
+            NXP Tag Class that inherits from the Class1 Gen2 Tag Class
+            </summary>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.DetectTag(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            This function will detect a tag in the field and will return the tag or 
+            just return Null.
+            </summary>
+            <param name="reader"></param>
+            <param name="newTag">Reference which will be updated it a tag is detected.</param>
+            <returns>Tag if True else it returns Null</returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.DetectTags(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            This function performs Inventory on the type of Tag Passes in and returns with a list of 
+            tags detected. If no tags detected or if another error encountered, then Null is returned.
+            </summary>
+            <param name="reader"></param>
+            <returns>An ArrayList of Tags detected</returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.ChangePassword(System.Byte[])">
+            <summary>
+            This function is used to change 4-byte Class1 Gen2 Access Password to be used for 
+            some commands.
+            </summary>
+            <param name="pwd">Access Password to be used for the NXP Class1 Gen2 Tags</param>
+            <returns>True or False. Its always True.</returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.WriteEPC(SkyeTek.Readers.STPv3Reader,System.Byte[])">
+            <summary>
+            This function Writes the data to the EPC Memory Bank. It will calculate the PC 
+            value to be written automatically.
+            </summary>
+            <param name="reader"></param>
+            <param name="data"></param>
+            <returns>Returns the actual number of bytes written.</returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.WriteUserData(SkyeTek.Readers.STPv3Reader,System.Byte[])">
+            <summary>
+            This will write the data to the User Memory Bank. The function will exit with a Pass 
+            if all the data was written. If not, then a failure message is returned.
+            </summary>
+            <param name="reader"></param>
+            <param name="data"></param>
+            <returns>Returns the actual number of bytes written.</returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.WriteAccessPassword(SkyeTek.Readers.STPv3Reader,System.Byte[])">
+            <summary>
+            This will write the 4-byte Access Password to the Reserved Memory Bank.
+            </summary>
+            <param name="reader"></param>
+            <param name="data"></param>
+            <returns>Returns True if Password written correctly else returns False.</returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.WriteKillPassword(SkyeTek.Readers.STPv3Reader,System.Byte[])">
+            <summary>
+            This will write the 4-byte Kill Password to the Reserved Memory Bank.
+            </summary>
+            <param name="reader"></param>
+            <param name="data"></param>
+            <returns>Returns True if Password written correctly else returns False.</returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.LockTag(SkyeTek.Readers.STPv3Reader,System.UInt32)">
+            <summary>
+            This sends the EPC Class1 Gen2 Lock Value to the tag. The lock value would be the 
+            different memory banks lock protection values ORed together into a single 32-bit value.
+            </summary>
+            <param name="reader"></param>
+            <param name="lockVal"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.WriteTagMemory(SkyeTek.Readers.STPv3Reader,System.UInt16,System.UInt16,System.Byte[])">
+            <summary>
+            This function is used to Write Any Data to Any of the Meory banks. The calling 
+            function will have to select the correct starting address block information 
+            and data to be written.This can also be used for writing the Lock Values to 
+            the EPC Tag.
+            </summary>
+            <param name="reader"></param>
+            <param name="address"></param>
+            <param name="blocks"></param>
+            <param name="data"></param>
+            <returns>Returns True if data written correctly else returns False.</returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.ReadEPC(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            This function will read all the contents of the EPC Memory Bank. The function 
+            returns when no more data can be read.
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.ReadUserData(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            This function will read all the contents of the User Memory Bank. The function 
+            returns when no more data can be read.
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.ReadAccessPassword(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            This function will read the Access Password from the Reserved Memory Bank of the
+            EPC Tag.
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.ReadKillPassword(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            This function will read the Kill Password from the Reserved Memory Bank of the
+            EPC Tag
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.ReadTagMemory(SkyeTek.Readers.STPv3Reader,System.UInt16,System.UInt16)">
+            <summary>
+            This function is used to read data from Any Memory bank, address and any number 
+            of blocks.
+            The function will return a NULL if no data was read, else it will return the 
+            data read and set the length to the data read. (?)
+            </summary>
+            <param name="reader"></param>
+            <param name="address"></param>
+            <param name="blocks"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Class1Gen2Tag.SendTagPassword(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            This sends the Access Password to the tag to put it in Secure Mode.
+            </summary>
+            <param name="reader"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.NXPTag.#ctor(SkyeTek.Tags.Tag,System.Byte[])">
+            <summary>
+            Constructor for the NXP Tag Class. 
+            </summary>
+            <param name="newTag">Tag Type that gets passed in. Should be of type NXP G2XL or G2XM</param>
+            <param name="pwd">Access Password to be used for the NXP Class1 Gen2 Tags</param>
+        </member>
+        <member name="M:SkyeTek.NXPTag.EnableEAS(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            This function is used to enable the EAS functionality for the NXP G2XM and G2XM tags.
+            </summary>
+            <param name="reader">SkyeTek UHF Reader used to send commands to the tag</param>
+            <returns>Returns True if the operation passes. Else it returns False</returns>
+        </member>
+        <member name="M:SkyeTek.NXPTag.DisableEAS(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            This function is used to disable the EAS functionality for the NXP G2XM and G2XM tags.
+            </summary>
+            <param name="reader">SkyeTek UHF Reader used to send commands to the tag</param>
+            <returns>Returns True if the operation passes. Else it returns False</returns>
+        </member>
+        <member name="M:SkyeTek.NXPTag.ScanEAS(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            This function scans for EAS Alarms that would be sent out by the NXP G2XL and G2XM
+            tags that have the EAS functionality Enabled. 
+            </summary>
+            <param name="reader">SkyeTek UHF Reader used to send commands to the tag</param>
+            <returns>Returns True if EAS Alrm is detected. Else it returns False</returns>
+        </member>
+        <member name="M:SkyeTek.NXPTag.SetReadProtection(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            Sets the Read Protection on the NXP G2XL and G2XM tags. This puts the tag in a mode
+            so that the tag will respond with all 0s in place of its actual EPC.
+            </summary>
+            <param name="reader">SkyeTek UHF Reader used to send commands to the tag</param>
+            <returns>Returns True if the operation passes. Else it returns False</returns>
+        </member>
+        <member name="M:SkyeTek.NXPTag.ResetReadProtection(SkyeTek.Readers.STPv3Reader)">
+            <summary>
+            Resets the Read Protection that was set on an NXP G2XL or G2XM tag. 
+            </summary>
+            <param name="reader">SkyeTek UHF Reader used to send commands to the tag</param>
+            <returns>Returns True if the operation passes. Else it returns False</returns>
+        </member>
+        <member name="T:SkyeTek.Tags.TagType">
+            <summary>
+            Supported tag types.
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Tags.Tag.Type">
+            <summary>
+            Type for this tag. Must be one of the members
+            of <see cref="T:SkyeTek.Tags.TagType"/>
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Tags.Tag.TID">
+            <summary>
+            Tag ID for this tag.  Variable length with maximum of 16 bytes.
+            </summary>
+        </member>
+        <member name="M:GenericHid.Hid.FlushQueue(Microsoft.Win32.SafeHandles.SafeFileHandle)">
+             <summary>
+             Remove any Input reports waiting in the buffer.
+             </summary>
+             
+             <param name="hidHandle"> a handle to a device.   </param>
+             
+             <returns>
+             True on success, False on failure.
+             </returns>
+        </member>
+        <member name="M:GenericHid.Hid.GetDeviceCapabilities(Microsoft.Win32.SafeHandles.SafeFileHandle)">
+             <summary>
+             Retrieves a structure with information about a device's capabilities. 
+             </summary>
+             
+             <param name="hidHandle"> a handle to a device. </param>
+             
+             <returns>
+             An HIDP_CAPS structure.
+             </returns>
+        </member>
+        <member name="M:GenericHid.Hid.GetHidUsage(GenericHid.Hid.HIDP_CAPS)">
+             <summary>
+             Creates a 32-bit Usage from the Usage Page and Usage ID. 
+             Determines whether the Usage is a system mouse or keyboard.
+             Can be modified to detect other Usages.
+             </summary>
+             
+             <param name="MyCapabilities"> a HIDP_CAPS structure retrieved with HidP_GetCaps. </param>
+             
+             <returns>
+             A String describing the Usage.
+             </returns>
+        </member>
+        <member name="M:GenericHid.Hid.GetNumberOfInputBuffers(Microsoft.Win32.SafeHandles.SafeFileHandle,System.Int32@)">
+             <summary>
+             Retrieves the number of Input reports the host can store.
+             </summary>
+             
+             <param name="hidDeviceObject"> a handle to a device  </param>
+             <param name="numberOfInputBuffers"> an integer to hold the returned value. </param>
+             
+             <returns>
+             True on success, False on failure.
+             </returns>
+        </member>
+        <member name="M:GenericHid.Hid.SetNumberOfInputBuffers(Microsoft.Win32.SafeHandles.SafeFileHandle,System.Int32)">
+             <summary>
+             sets the number of input reports the host will store.
+             Requires Windows XP or later.
+             </summary>
+             
+             <param name="hidDeviceObject"> a handle to the device.</param>
+             <param name="numberBuffers"> the requested number of input reports.  </param>
+             
+             <returns>
+             True on success. False on failure.
+             </returns>
+        </member>
+        <member name="M:GenericHid.Hid.IsWindowsXpOrLater">
+             <summary>
+             Find out if the current operating system is Windows XP or later.
+             (Windows XP or later is required for HidD_GetInputReport and HidD_SetInputReport.)
+             </summary>
+        </member>
+        <member name="M:GenericHid.Hid.IsWindows98Gold">
+             <summary>
+             Find out if the current operating system is Windows 98 Gold (original version).
+             Windows 98 Gold does not support the following:
+             Interrupt OUT transfers (WriteFile uses control transfers and Set_Report).
+             HidD_GetNumInputBuffers and HidD_SetNumInputBuffers
+             (Not yet tested on a Windows 98 Gold system.)
+             </summary>
+        </member>
+        <member name="M:GenericHid.Hid.DisplayException(System.String,System.Exception)">
+             <summary>
+             Provides a central mechanism for exception handling.
+             Displays a message box that describes the exception.
+             </summary>
+             
+             <param name="moduleName">  the module where the exception occurred. </param>
+             <param name="e"> the exception </param>
+        </member>
+        <member name="T:GenericHid.Hid.ReportIn">
+             <summary>
+             For reports the device sends to the host.
+             </summary>
+        </member>
+        <member name="M:GenericHid.Hid.ReportIn.Read(Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,System.Boolean@,System.Byte[]@,System.Boolean@)">
+             <summary>
+             Each class that handles reading reports defines a Read method for reading 
+             a type of report. Read is declared as a Sub rather
+             than as a Function because asynchronous reads use a callback method 
+             that can access parameters passed by ByRef but not Function return values.
+             </summary>
+        </member>
+        <member name="T:GenericHid.Hid.InFeatureReport">
+             <summary>
+             For reading Feature reports.
+             </summary>
+        </member>
+        <member name="M:GenericHid.Hid.InFeatureReport.Read(Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,System.Boolean@,System.Byte[]@,System.Boolean@)">
+             <summary>
+             reads a Feature report from the device.
+             </summary>
+             
+             <param name="hidHandle"> the handle for learning about the device and exchanging Feature reports. </param>
+             <param name="readHandle"> the handle for reading Input reports from the device. </param>
+             <param name="writeHandle"> the handle for writing Output reports to the device. </param>
+             <param name="myDeviceDetected"> tells whether the device is currently attached.</param>
+             <param name="inFeatureReportBuffer"> contains the requested report.</param>
+             <param name="success"> read success</param>
+        </member>
+        <member name="T:GenericHid.Hid.InputReportViaControlTransfer">
+             <summary>
+             For reading Input reports via control transfers
+             </summary>
+        </member>
+        <member name="M:GenericHid.Hid.InputReportViaControlTransfer.Read(Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,System.Boolean@,System.Byte[]@,System.Boolean@)">
+             <summary>
+             reads an Input report from the device using a control transfer.
+             </summary>
+             
+             <param name="hidHandle"> the handle for learning about the device and exchanging Feature reports. </param>
+             <param name="readHandle"> the handle for reading Input reports from the device. </param>
+             <param name="writeHandle"> the handle for writing Output reports to the device. </param>
+             <param name="myDeviceDetected"> tells whether the device is currently attached. </param>
+             <param name="inputReportBuffer"> contains the requested report. </param>
+             <param name="success"> read success </param>
+        </member>
+        <member name="T:GenericHid.Hid.InputReportViaInterruptTransfer">
+             <summary>
+             For reading Input reports.
+             </summary>
+        </member>
+        <member name="M:GenericHid.Hid.InputReportViaInterruptTransfer.CancelTransfer(Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,System.IntPtr)">
+             <summary>
+             closes open handles to a device.
+             </summary>
+             
+             <param name="hidHandle"> the handle for learning about the device and exchanging Feature reports. </param>
+             <param name="readHandle"> the handle for reading Input reports from the device. </param>
+             <param name="writeHandle"> the handle for writing Output reports to the device. </param>
+        </member>
+        <member name="M:GenericHid.Hid.InputReportViaInterruptTransfer.PrepareForOverlappedTransfer(System.Threading.NativeOverlapped@,System.IntPtr@)">
+             <summary>
+             Creates an event object for the overlapped structure used with ReadFile. 
+             </summary>
+             
+             <param name="hidOverlapped"> the overlapped structure </param>
+             <param name="eventObject"> the event object </param>
+        </member>
+        <member name="M:GenericHid.Hid.InputReportViaInterruptTransfer.Read(Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,Microsoft.Win32.SafeHandles.SafeFileHandle,System.Boolean@,System.Byte[]@,System.Boolean@)">
+             <summary>
+             reads an Input report from the device using interrupt transfers.
+             </summary>
+             
+             <param name="hidHandle"> the handle for learning about the device and exchanging Feature reports. </param>
+             <param name="readHandle"> the handle for reading Input reports from the device. </param>
+             <param name="writeHandle"> the handle for writing Output reports to the device. </param>
+             <param name="myDeviceDetected"> tells whether the device is currently attached. </param>
+             <param name="inputReportBuffer"> contains the requested report. </param>
+             <param name="success"> read success </param>
+        </member>
+        <member name="T:GenericHid.Hid.ReportOut">
+             <summary>
+             For reports the host sends to the device.
+             </summary>
+        </member>
+        <member name="M:GenericHid.Hid.ReportOut.Write(System.Byte[],Microsoft.Win32.SafeHandles.SafeFileHandle)">
+             <summary>
+             Each class that handles writing reports defines a Write method for 
+             writing a type of report.
+             </summary>
+             
+             <param name="reportBuffer"> contains the report ID and report data. </param>
+              <param name="deviceHandle"> handle to the device.  </param>
+             
+             <returns>
+              True on success. False on failure.
+             </returns>             
+        </member>
+        <member name="T:GenericHid.Hid.OutFeatureReport">
+             <summary>
+             For Feature reports the host sends to the device.
+             </summary>
+        </member>
+        <member name="M:GenericHid.Hid.OutFeatureReport.Write(System.Byte[],Microsoft.Win32.SafeHandles.SafeFileHandle)">
+             <summary>
+             writes a Feature report to the device.
+             </summary>
+             
+             <param name="outFeatureReportBuffer"> contains the report ID and report data. </param>
+             <param name="hidHandle"> handle to the device.  </param>
+             
+             <returns>
+              True on success. False on failure.
+             </returns>            
+        </member>
+        <member name="T:GenericHid.Hid.OutputReportViaControlTransfer">
+             <summary>
+             For writing Output reports via control transfers
+             </summary>
+        </member>
+        <member name="M:GenericHid.Hid.OutputReportViaControlTransfer.Write(System.Byte[],Microsoft.Win32.SafeHandles.SafeFileHandle)">
+             <summary>
+             writes an Output report to the device using a control transfer.
+             </summary>
+             
+             <param name="outputReportBuffer"> contains the report ID and report data. </param>
+             <param name="hidHandle"> handle to the device.  </param>
+             
+             <returns>
+              True on success. False on failure.
+             </returns>            
+        </member>
+        <member name="T:GenericHid.Hid.OutputReportViaInterruptTransfer">
+             <summary>
+             For Output reports the host sends to the device.
+             Uses interrupt or control transfers depending on the device and OS.
+             </summary>
+        </member>
+        <member name="M:GenericHid.Hid.OutputReportViaInterruptTransfer.Write(System.Byte[],Microsoft.Win32.SafeHandles.SafeFileHandle)">
+             <summary>
+             writes an Output report to the device.
+             </summary>
+             
+             <param name="outputReportBuffer"> contains the report ID and report data. </param>
+             <param name="writeHandle"> handle to the device.  </param>
+             
+             <returns>
+              True on success. False on failure.
+             </returns>            
+        </member>
+        <member name="T:SkyeTek.STP.ProtocolMode">
+            <summary>
+            STPv2 and STPv3 can operate in one of two modes.  Currently only BINARY mode is supported.
+            </summary>
+        </member>
+        <member name="T:SkyeTek.STP.CRCException">
+            <summary>
+            Wrapper around the base Exception class to denote a CRC mismatch
+            </summary>
+        </member>
+        <member name="T:SkyeTek.STPv3.STPv3Command">
+            <summary>
+            This class encapsulates all of the information we need to know about
+            a STPv3 command.
+            </summary>
+        </member>
+        <member name="T:SkyeTek.STPv3.STPv3Commands">
+            <summary>
+            This class holds the STPv3 Commands supported by this API.  Please
+            see SkyeTek Protocol v3 documentation for a description of what each
+            command does.
+            </summary>
+        </member>
+        <member name="M:SkyeTek.STPv3.STPv3Commands.GetCommands">
+            <summary>
+            Retrieves the supported commands <see cref="T:SkyeTek.STPv3.STPv3Command"/> and puts them into an array
+            </summary>
+            <returns>Array of supported commands</returns>
+        </member>
+        <member name="T:SkyeTek.STPv3.Commands">
+            <summary>
+            Enumeration of Command codes supported
+            </summary>
+        </member>
+        <member name="T:SkyeTek.STPv3.STPv3ResponseCode">
+            <summary>
+            Enumeration of STPv3 response codes supported
+            </summary>
+        </member>
+        <member name="T:SkyeTek.STPv3.STPv3Response">
+            <summary>
+            Wraps a response from the reader.  This should not be instantiated by itself, it must be
+            created by STPv3Request.GetResponse <see cref="T:SkyeTek.STPv3.STPv3Request"/>
+            </summary>
+        </member>
+        <member name="M:SkyeTek.STPv3.STPv3Response.ToString">
+            <summary>
+            </summary>
+            <returns>Returns a hexadecimal encoded string of the bytes that make up this response</returns>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Response.Bytes">
+            <summary>
+            Returns the actual bytes that make up this response
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Response.ResponseCode">
+            <summary>
+            Returns the response code for this response. <see cref="T:SkyeTek.STPv3.STPv3ResponseCode"/>
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Response.MessageLength">
+            <summary>
+            Returns the length of the response message
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Response.TagType">
+            <summary>
+            Returns the tag type for this response if it has one. <see cref="T:SkyeTek.Tags.TagType"/>
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Response.Data">
+            <summary>
+            Returns the data associated with this response if any
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Response.TID">
+            <summary>
+            Returns the tag id associated with this response if any. 
+            Variable length with maximum of 16 bytes.
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Response.Success">
+            <summary>
+            Returns true if the response indicates the request was successful, false otherwise
+            </summary>
+        </member>
+        <member name="T:SkyeTek.STPv3.STPv3Request">
+            <summary>
+            Encapsulates a request to a STPv3 compliant reader.  This class
+            exposes all of the various STPv3 fields as attributes.  Usage pattern
+            consists of instantiating this class, setting the various attributes,
+            calling Issue to transmit the command and then retrieving any
+            responses via GetResponse
+            </summary>
+        </member>
+        <member name="M:SkyeTek.STPv3.STPv3Request.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SkyeTek.STPv3.STPv3Request.ToString">
+            <summary>
+            </summary>
+            <returns>Returns a hexadecimal encoded string of the bytes that make up this request</returns>
+        </member>
+        <member name="M:SkyeTek.STPv3.STPv3Request.Issue(SkyeTek.Devices.Device)">
+            <summary>
+            Sends this request via the given Device. <see cref="T:SkyeTek.Devices.Device"/>
+            </summary>
+            <param name="device">Device to send the request to</param>
+        </member>
+        <member name="M:SkyeTek.STPv3.STPv3Request.GetResponse">
+            <summary>
+            Call this after Issue to retrieve any response(s) sent back by the reader
+            </summary>
+            <returns>STPv3Reponse <see cref="T:SkyeTek.STPv3.STPv3Response"/> object or null if there was no reponsed</returns>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.Inventory">
+            <summary>
+            For SelectTag requests, setting this to true indicates the reader should
+            inventory all tags in the RF field
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.RF">
+            <summary>
+            True indicates the reader should leave the radio on even after the command has completed
+            This keeps any tags in the field powered and allows them to maintain state between requests.
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.Loop">
+            <summary>
+            For SelectTag requests, true indicates the reader should continually look
+            for tags entering its field.  The reader may not necessarily return all of the
+            tags in field.
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.HMAC">
+            <summary>
+            For Read and Write requests, true indicates the data should be verified
+            by HMAC
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.Encryption">
+            <summary>
+            For Read and Write requests, true indicates the data should be encrypted
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.Lock">
+            <summary>
+            For a Write request, true indicates the reader should lock the specified memory blocks
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.RID">
+            <summary>
+             Specifies a particular reader module to which the request is directed. 
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.Session">
+            <summary>
+            Sets the specific session for this request
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.Address">
+            <summary>
+            Specifies an address to be used by for this request.
+            It may be a specific address in the tag memory or an address that 
+            gets translated into a specific tag memory address. 
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.Blocks">
+            <summary>
+            Specifies the amount of data to be written by or read from the reader 
+            module. (The location of the data is specified by the Address field.)
+            Note that the number of blocks is not equal to the number of bytes of
+            data. How many bytes exist in a block depends on the command, tag type,
+            and address fields.
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.Data">
+            <summary>
+            Sets the data for this request
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.AFI">
+            <summary>
+            Specifies an Application Field Identifier (AFI) used to detect
+            a tag in the field that belongs to a specific family of tags.
+            Valid only for tag types that support AFI functionality. 
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.Tag">
+            <summary>
+            Sets the tag for this request.  Changing the tag after Issue is called but before
+            GetResponse is called can result in the response being interpreted incorrectly.
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.Mode">
+            <summary>
+            Retrieves the protocol mode (ASCII or BINARY) for the request.  Currently
+            only BINARY is supported
+            </summary>
+        </member>
+        <member name="P:SkyeTek.STPv3.STPv3Request.Command">
+            <summary>
+            Sets the command for this request <see cref="T:SkyeTek.STPv3.STPv3Command"/>.  The static STPv3Commands class
+            contains a list of the supported commands.
+            </summary>
+        </member>
+        <member name="T:SkyeTek.Devices.DeviceType">
+            <summary>
+            Supported device types.  Not all device types are supported on all platforms
+            </summary>
+        </member>
+        <member name="T:SkyeTek.Devices.SerialDevice">
+            <summary>
+            Encapsulates a serial device.
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Devices.SerialDevice.ReadTimeout">
+            <summary>
+            Specifies the time in milliseconds before a read operation times out. 
+            This must be set before opening the device
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Devices.SerialDevice.WriteTimeout">
+            <summary>
+            Specifies the time in milliseconds before a write operation times out. 
+            This must be set before opening the device.
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Devices.SerialDevice.Address">
+            <summary>
+            Set and get the address of this serial device.  For this particular implmentation,
+            the address is the name or path to the serial port.
+            </summary>
+        </member>
+        <member name="M:SkyeTek.Devices.SerialDeviceFactory.Enumerate">
+            <summary>
+            Enumerates serial ports on host.  These ports may or may not have readers attached to them
+            </summary>
+            <returns>Array of Devices.  They have not been opened yet (i.e. device.Open())</returns>
+        </member>
+        <member name="P:SkyeTek.Devices.USBDevice.Address">
+            <summary>
+            Address of the usb device.  Address is the system path to the device.
+            </summary>
+        </member>
+        <member name="M:SkyeTek.Devices.skyetek_hid.MyMarshalToForm(System.String,System.String)">
+             <summary>
+             Enables accessing a form's controls from another thread 
+             </summary>
+             
+             <param name="action"> a String that names the action to perform on the form </param>
+             <param name="textToDisplay"> text that the form displays or the code uses for 
+             another purpose. Actions that don't use text ignore this parameter.  </param>
+        </member>
+        <member name="T:SkyeTek.Devices.skyetek_hid.ReadInputReportDelegate">
+             <summary>
+             Define a class of delegates that point to the Hid.ReportIn.Read function.
+             The delegate has the same parameters as Hid.ReportIn.Read.
+             Used for asynchronous reads from the device.       
+             </summary>
+        </member>
+        <member name="M:SkyeTek.Devices.HexEncoding.GetBytes(System.String,System.Int32@)">
+            <summary>
+            Creates a byte array from the hexadecimal string. Each two characters are combined
+            to create one byte. First two hexadecimal characters become first byte in returned array.
+            Non-hexadecimal characters are ignored. 
+            </summary>
+            <param name="hexString">string to convert to byte array</param>
+            <param name="discarded">number of characters in string ignored</param>
+            <returns>byte array, in the same left-to-right order as the hexString</returns>
+        </member>
+        <member name="M:SkyeTek.Devices.HexEncoding.InHexFormat(System.String)">
+            <summary>
+            Determines if given string is in proper hexadecimal string format
+            </summary>
+            <param name="hexString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Devices.HexEncoding.IsHexDigit(System.Char)">
+            <summary>
+            Returns true is c is a hexadecimal digit (A-F, a-f, 0-9)
+            </summary>
+            <param name="c">Character to test</param>
+            <returns>true if hex digit, false if not</returns>
+        </member>
+        <member name="M:SkyeTek.Devices.HexEncoding.HexToByte(System.String)">
+            <summary>
+            Converts 1 or 2 character string into equivalant byte value
+            </summary>
+            <param name="hex">1 or 2 character string</param>
+            <returns>byte</returns>
+        </member>
+        <member name="T:SkyeTek.Readers.InventoryTagDelegate">
+            <summary>
+            Inventory tag callback
+            </summary>
+            <param name="tag">A tag found by the inventory process</param>
+            <param name="context">Object passed in for caller context</param>
+            <returns>True to end the inventory process if InventoryTags was called with loop set to true</returns>
+        </member>
+        <member name="M:SkyeTek.Readers.Reader.SelectTag(SkyeTek.Tags.Tag@)">
+            <summary>
+            Selects a specified tag in the field.  Returns true if tag is selected.
+            </summary>
+            <param name="tag">Reference to a tag.  If tag type is not specified, auto-detect will be used.</param>
+            <returns>True if a tag was selected, false otherwise</returns>
+        </member>
+        <member name="M:SkyeTek.Readers.Reader.InventoryTags(SkyeTek.Tags.Tag,System.Boolean,SkyeTek.Readers.InventoryTagDelegate,System.Object)">
+            <summary>
+            Inventory tags in the readers field. 
+            </summary>
+            <param name="tag">This parameter describes the tags to inventory (e.g. by type, by epc, by afi, etc...).</param>
+            <param name="loop">True indicates the reader should inventory tags until explicitly told to stop</param>
+            <param name="itd">Delegate to call when a tag is inventoried.  Any long running or computationally intensive work should
+            be done outside of the this function call so as not to impede the inventory process.</param>
+            <param name="context">Context object passed through to delegate call</param>
+            <returns>True if the call to InventoryTags was terminated by a call to the InventoryTagDelegate, false if terminated because of another reason</returns>
+        </member>
+        <member name="M:SkyeTek.Readers.Reader.ReadTagData(SkyeTek.Tags.Tag,System.UInt16,System.UInt16)">
+            <summary>
+            Reads data from the specified tag
+            </summary>
+            <param name="tag">Tag to read data from</param>
+            <param name="address">Start address of read</param>
+            <param name="blocks">Number of blocks</param>
+            <returns>Returns null if the read fails, data otherwise</returns>
+        </member>
+        <member name="M:SkyeTek.Readers.Reader.WriteTagData(SkyeTek.Tags.Tag,System.Byte[],System.UInt16,System.UInt16)">
+            <summary>
+            Writes data to the specified tag
+            </summary>
+            <param name="tag">Tag to write data to</param>
+            <param name="data">Data to be written</param>
+            <param name="address">Start address of write</param>
+            <param name="blocks">Number of blocks</param>
+            <returns>True if the operation succeeded, false otherwise</returns>
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.LockTagData(SkyeTek.Tags.Tag,System.Byte[],System.UInt16,System.UInt16)">
+            <summary>
+            This function is used for Locking the Tag Data / Tag Blocks. It is very similar to the Write Tag function
+            with the exception of the Lock Flag being set in this case.
+            </summary>
+            <param name="tag"></param>
+            <param name="data"></param>
+            <param name="address"></param>
+            <param name="blocks"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.WriteSystemParameter(System.Byte[],System.UInt16,System.UInt16)">
+            <summary>
+            Writes a system parameter to the reader.  Address denotes parameter
+            </summary>
+            <param name="data">Data to be written</param>
+            <param name="address">Address to write to</param>
+            <param name="blocks">Number of blocks to write</param>
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.ReadSystemParameter(System.UInt16,System.UInt16)">
+            <summary>
+            Reads stored system parameter from reader.  Address denotes parameter
+            </summary>
+            <param name="address">Address to read from</param>
+            <param name="blocks">Number of blocks to read</param>
+            <returns>Returns null if read failed, data otherwise</returns>
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.RetrieveDefaultParameter(System.UInt16,System.UInt16)">
+            <summary>
+            Reads a stored default parameter from the reader.  Address denotes parameter
+            </summary>
+            <param name="address">Address to read from</param>
+            <param name="blocks">Number of blocks to write</param>
+            <returns>Return null if read failed, data otherwise</returns>
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.StoreDefaultParameter(System.Byte[],System.UInt16,System.UInt16)">
+            <summary>
+            Writes a new default system parameter.  Address denotes parameter
+            </summary>
+            <param name="data">Data to write</param>
+            <param name="address">Address to write to</param>
+            <param name="blocks">Number of blocks to write</param>           
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.SendTagPassword(SkyeTek.Tags.Tag,System.Byte[])">
+            <summary>
+            Send Tag Password - Sends the Tag Password to the Tag
+            </summary>
+            <param name="tag"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.ReadTagConfig(SkyeTek.Tags.Tag,System.UInt16,System.UInt16,System.Byte[])">
+            <summary>
+            Read Tag Configuration
+            </summary>
+            <param name="tag"></param>
+            <param name="address"></param>
+            <param name="blocks"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.WriteTagConfig(SkyeTek.Tags.Tag,System.UInt16,System.UInt16,System.Byte[])">
+            <summary>
+            Write Tag Configuration
+            </summary>
+            <param name="tag"></param>
+            <param name="address"></param>
+            <param name="blocks"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.enableEAS(SkyeTek.Tags.Tag)">
+            <summary>
+            Enable EAS
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.disableEAS(SkyeTek.Tags.Tag)">
+            <summary>
+            Disable EAS
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.scanEAS(SkyeTek.Tags.Tag)">
+            <summary>
+            Scan EAS
+            </summary>
+            <param name="tag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SkyeTek.Readers.STPv3Reader.UploadFirmware(System.String)">
+            <summary>
+            Uploads new firmware to a reader.  Takes a string containing the path to the .shf file
+            </summary>
+            <param name="file">Path to .shf file.  String.</param>
+            <returns></returns>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.SerialNumber">
+            <summary>
+            Reader Serial Number
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.FirmwareVersion">
+            <summary>
+            Reader Firmware Version
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.ProductCode">
+            <summary>
+            Reader Product Code
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.HardwareVersion">
+            <summary>
+            Reader hardware version
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.ReaderName">
+            <summary>
+            Reader Name
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.ReaderID">
+            <summary>
+            Reader ID
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.CurrentFrequency">
+            <summary>
+            Current Frequency
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.StartFrequency">
+            <summary>
+            Start Frequency
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.StopFrequency">
+            <summary>
+            Stop Frequency
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.RetryCount">
+            <summary>
+            Retry Count
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.PowerLevel">
+            <summary>
+            Power Level
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.ModulationDepth">
+            <summary>
+            Modulation Depth
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.RegulatoryMode">
+            <summary>
+            Regulatory Mode
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.FrequencyHop">
+            <summary>
+            Frequency Hop Type
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.HopSize">
+            <summary>
+            Hop Channel Spacing
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.defaultReaderName">
+            <summary>
+            Reader Name - Non-Volatile Memory
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.defaultReaderID">
+            <summary>
+            Reader ID - Non-Volatile Memory
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.defaultCurrentFrequency">
+            <summary>
+            Current Frequency - Default Value
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.defaultStartFrequency">
+            <summary>
+            Start Frequency
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.defaultStopFrequency">
+            <summary>
+            Stop Frequency - Non-Volatile Memory
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.defaultRetryCount">
+            <summary>
+            Retry Count - Non-Volatile Memory
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.defaultPowerLevel">
+            <summary>
+            Power Level - Non-Volatile Memory
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.defaultModulationDepth">
+            <summary>
+            Modulation Depth - Non-Volatile Memory
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.defaultRegulatoryMode">
+            <summary>
+            Regulatory Mode - Non-Volatile Memory
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.defaultFrequencyHop">
+            <summary>
+            Frequency Hop Type - Non-Volatile Memory
+            </summary>
+        </member>
+        <member name="P:SkyeTek.Readers.STPv3Reader.defaultHopSize">
+            <summary>
+            Hop Channel Spacing - Non-Volatile Memory
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,43 @@
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll.config
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.pdb
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.pdb
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.tlb
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll.config
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.XML
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.pdb
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.tlb
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.dll
+C:\Documents and Settings\administrator.PIZZA\Desktop\SkyeReader\Lach\SkyeReader\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.pdb
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll.config
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.pdb
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.pdb
+C:\Users\Ltemelkov\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.tlb
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll.config
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.pdb
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.tlb
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.dll
+C:\Documents and Settings\Administrator\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.pdb
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll.config
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.pdb
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.tlb
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.dll
+C:\Users\Lucho\Desktop\Lach_working\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.pdb
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\stapiclr\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.dll
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll.config
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.pdb
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.pdb
+C:\Users\Lucho\Desktop\Lach_workingv1\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.tlb

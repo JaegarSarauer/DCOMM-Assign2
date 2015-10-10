@@ -1,0 +1,8 @@
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll.config
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.XML
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.pdb
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\bin\Debug\stapiclr.tlb
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.dll
+C:\Users\Ltemelkov\Desktop\SkyeReader\trunk\api\stapiclr\obj\Debug\stapiclr.pdb
